@@ -27,6 +27,7 @@ module.exports = {
             : 'off',
 
         'indent': ['error', 4],
-        'space-before-function-paren': ['error', 'never']
+        'space-before-function-paren': ['error', 'never'],
+        'no-multiple-empty-lines': ['error', {max: 5}]
     }
 }
